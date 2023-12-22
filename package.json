@@ -3,6 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "next lint --fix",
+    "lint:check": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start"
@@ -21,18 +23,24 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
+    "use-debounce": "^10.0.0",
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "14.0.4",
     "@types/bcrypt": "^5.0.1",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "@vercel/style-guide": "^5.0.1",
     "dotenv": "^16.3.1",
-    "eslint": "^8.52.0",
-    "eslint-config-next": "^14.0.0",
-    "eslint-config-prettier": "9.0.0",
-    "prettier": "^3.0.3",
+    "eslint": "8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
