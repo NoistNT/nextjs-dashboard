@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import Search from '@/app/ui/search'
 import { CustomersTableType } from '@/app/lib/definitions'
-
 import { lusitana } from '@/app/ui/fonts'
 
 export default async function CustomersTable({
